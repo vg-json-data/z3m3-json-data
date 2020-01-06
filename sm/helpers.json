@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/miketrethewey/sm-json-data/master/schema/m3-helpers.schema.json",
+  "helpers": [
+    {
+      "name": "heatProof",
+      "requires": [
+        {"or": [
+          "Varia"
+        ]}
+      ],
+      "note": "Z3M3: No Gravity Suit"
+    }
+  ]
+}
