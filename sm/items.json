@@ -1,9 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/miketrethewey/sm-json-data/master/schema/m3-items.schema.json",
   "note": "Z3M3: Game Flags: Start with ZebesAwake",
-  "baseItems": [
-    "PowerBeam",
-    "PowerSuit",
+  "baseFlags": [
     "ZebesAwake"
   ]
 }
