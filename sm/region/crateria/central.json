@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/miketrethewey/sm-json-data/master/schema/m3-region.schema.json",
+  "rooms": [
+    {
+      "note": "Z3M3: Room 10: Node 6: Blue Door",
+      "id": 10,
+      "name": "Parlor and Alcatraz",
+      "area": "Crateria",
+      "subarea": "Central",
+      "roomAddress": "0x792FD",
+      "nodes": [
+        {
+          "id": 6,
+          "name": "Bottom Right Door",
+          "nodeType": "door",
+          "nodeSubType": "red",
+          "nodeAddress": "0x0018976",
+          "locks": [
+            {
+              "lockType": "coloredDoor",
+              "unlockStrats": [
+                {
+                  "name": "Base",
+                  "notable": false,
+                  "requires": [ "canShoot" ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "links": [
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/miketrethewey/sm-json-data/master/schema/m3-region.schema.json",
+  "rooms": [
+    {
+      "note": "Z3M3: Room 39: Node 2: Blue Door",
+      "id": 39,
+      "name": "Construction Zone",
+      "area": "Brinstar",
+      "subarea": "Blue",
+      "roomAddress": "0x79F11",
+      "nodes": [
+        {
+          "id": 2,
+          "name": "Right Door",
+          "nodeType": "door",
+          "nodeSubType": "blue",
+          "nodeAddress": "0x0018ece",
+          "sparking": {
+            "runways": [
+              {
+                "length": 2,
+                "strats": [
+                  {
+                    "name": "Base",
+                    "notable": false,
+                    "requires": []
+                  }
+                ],
+                "usableComingIn": false,
+                "openEnd": 0
+              }
+            ]
+          },
+          "locks": [
+            {
+              "lockType": "coloredDoor",
+              "unlockStrats": [
+                {
+                  "name": "Base",
+                  "notable": false,
+                  "requires": ["canShoot"]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "links": [
+      ]
+    }
+  ]
+}
