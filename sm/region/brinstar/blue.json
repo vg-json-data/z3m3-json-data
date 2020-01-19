@@ -15,22 +15,20 @@
           "nodeType": "door",
           "nodeSubType": "blue",
           "nodeAddress": "0x0018ece",
-          "sparking": {
-            "runways": [
-              {
-                "length": 2,
-                "strats": [
-                  {
-                    "name": "Base",
-                    "notable": false,
-                    "requires": []
-                  }
-                ],
-                "usableComingIn": false,
-                "openEnd": 0
-              }
-            ]
-          },
+          "runways": [
+            {
+              "length": 2,
+              "strats": [
+                {
+                  "name": "Base",
+                  "notable": false,
+                  "requires": []
+                }
+              ],
+              "usableComingIn": false,
+              "openEnd": 0
+            }
+          ],
           "locks": [
             {
               "lockType": "coloredDoor",
